@@ -1,0 +1,21 @@
+Zadanie dotyczy podejmowania decyzji przy kupowaniu urzadzen RTV
+AGD. Uzywajac metody AHP opracowac plik w jezyku R oraz plik AHP
+danych wejsciowych z wykorzystaniem odpowiednich paczek.
+Podjac decyzje o kupowaniu smartfonu Samsung. Dla klienta udało się
+okreslic cztery kryteria, kóre powinny służyć ocenie smartfonu:
+wydajność, jakość, styl, cena. Na podstawie wzglednej waznosci poszczególnych
+kryteriów wybrac dla klienta smartfon. Uwzglendniamy następujące
+dane: wyswietlacz, pamięć RAM, pamięć wbudowana, aparat foto,
+cena. Dane (10 smartfonów) zawarto w tabelce:
+
+Nazwa	Cena	Wyświetlacz	RAM	Pamięć	Aparat
+Samsung Galaxy S21 FE	2689	6.4	6	128	12
+Samsung Galaxy M33 5G	1099	6.6	6	128	50
+Samsung Galaxy A54 5G	2399	6.4	8	128	50
+Samsung Galaxy S23 Ultra	6199	6.8	8	256	200
+Samsung Galaxy S20 FE 5G	2199	6.5	6	128	12
+Samsung Galaxy M23 5G	1299	6.6	4	128	50
+Samsung Galaxy A33 5G	1649	6.4	6	128	48
+Samsung Galaxy S22	3199	6.1	8	128	50
+Samsung Galaxy A53 5G	1899	6.5	6	128	64
+Samsung Galaxy Xcover5	999	5.3	4	64	16

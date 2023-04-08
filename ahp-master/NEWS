@@ -1,0 +1,62 @@
+# All changes to ahp are documented here.
+
+## Version 0.2.12 (CRAN)
+- FIX: Visualize fontcolor of criteria nodes is now black
+- FIX: Fixed problems relating to DiagrammeR changes
+
+## Version 0.2.11 (CRAN)
+- IMPROVE: Update to latest DiagrammeR updates
+- ADD: RunGUI now contains an optional port parameter
+
+## Version 0.2.10 (CRAN)
+- FIX: Removed warning becaues of deprecated method in data.tree
+
+## Version 0.2.9
+- FIX: Removed warning (masking of formattable::currency by DiagrammeR::currency)
+- UPDATE: Removed references to deprecated data.tree functions
+
+## Version 0.2.8
+- FIX: Added dependency on R 3.2
+
+## Version 0.2.7
+- FIX: Adopted to changes of DiagrammeR
+- FIX: Analyze sometimes doesn't show all alternatives
+
+## Version 0.2.6
+- CHANGE: Rename col Consistency to Inconsistency
+- CHANGE: Remove col Consistency if all values are NA
+
+## Version 0.2.4
+- CHANGE: Minor corrections in documentation
+
+## Version 0.2.2
+- ADD: Navbar in Shiny app is now floating
+- ADD: tom_dick_harry.ahp converted to v2.0
+- FIX: Removed old v1.0 tom_dick_harry.ahp from examples
+- FIX: score is now displayed also for single decision maker model
+
+## Version 0.2.1
+- ADD: enable Shiny app as stand-alone
+- ADD: Visualize: Show decision makers in tool tip of root
+- CHANGE: Changes in layout of Shiny app
+- FIX: Various small bug fixes in Shiny app
+
+## Version 0.2.0
+- ADD: Support for multiple decision makers
+- ADD: Support for scores / scales
+- ADD: Multiple methods to derive priorities from scores and pairwise matrix (see ?Calculate)
+- ADD: Customize methods to derive priorities from scores and pairwise matrix
+- ADD: Visualize method
+- ADD: Shiny GUI. Use ahp::RunGUI()
+- CHANGE: Renamed GetDataFrame to Analyze
+- CHANGE: Renamed ShowTable to AnalyzeTable
+- CHANGE/ADD: Added LoadString, renamed LoadFile into Load
+- CHANGE: Major change in file format, without backwards compatibility. Add Version: 1.0 to the first line of old files.
+- CHANGE: Renamed all tr attributes to ahpTree
+- ADD: vacation multiple decision makers example to vignette("examples", package = "ahp")
+
+## Version 0.1.0
+- ADD: Define ahp YAML file format
+- ADD: LoadFile Load ahp file
+- ADD: ShowTable Create html version of analysis
+- ADD: GetDataFrame Export analysis as data.frame
